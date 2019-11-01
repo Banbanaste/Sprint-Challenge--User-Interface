@@ -1,0 +1,43 @@
+.pad {
+  padding: 0 20px;
+}
+
+hr {
+  border-top: 1px dashed #000;
+  margin: 20px 0 30px;
+}
+
+.cardView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.aboutCard {
+  width: 360px;
+  border-bottom: 1px dashed #000;
+  margin-bottom: 60px;
+}
+
+.aboutCard div {
+  margin: 10px 0 30px;
+}
+
+.aboutCard h2 {
+}
+
+.aboutCard p {
+  margin-bottom: 20px;
+}
+
+.aboutCard a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  border: solid 2px #000;
+  border-radius: 5px;
+}
+
+.aboutBottom {
+  margin-bottom: 50px;
+}
