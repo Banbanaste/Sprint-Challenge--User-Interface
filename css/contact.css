@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 50px 0 300px;
+}
+
+section h1 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+form input {
+  width: 150px;
+  border: solid 2px rgb(155, 155, 255);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+form .btn {
+  background-color: rgb(52, 52, 204);
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+  border-color: rgb(52, 52, 204);
+}
+
+.abs {
+  width: 700px;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  z-index: -1;
+}
